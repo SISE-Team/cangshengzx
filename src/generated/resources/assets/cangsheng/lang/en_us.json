@@ -1,0 +1,19 @@
+{
+  "block.cangsheng.sect_altar": "Sect Altar",
+  "effect.cangsheng.knockdown": "Knockdown (Mirror)",
+  "effect.cangsheng.knockup": "Knock-up (Mirror)",
+  "effect.cangsheng.root": "Root (Mirror)",
+  "effect.cangsheng.silence": "Silence (Mirror)",
+  "effect.cangsheng.slow": "Slow (Mirror)",
+  "effect.cangsheng.snare": "Snare (Mirror)",
+  "effect.cangsheng.stun": "Stun (Mirror)",
+  "effect.cangsheng.suppress": "Suppression (Mirror)",
+  "item.cangsheng.cangqiong_token": "Cangqiong Token",
+  "item.cangsheng.chaosong_token": "Chaosong Token",
+  "item.cangsheng.debug_wand": "Debug Wand",
+  "item.cangsheng.fosi_token": "Fosi Token",
+  "item.cangsheng.huanshang_token": "Huanshang Token",
+  "item.cangsheng.qingluan_token": "Qingluan Token",
+  "item.cangsheng.qingmo_token": "Qingmo Token",
+  "itemGroup.cangsheng": "Under Heaven"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "qingluan",
+  "displayName": "青鸾峰",
+  "verse": "一符敕落千山雪，半剑分来两仪光",
+  "primaryColor": "#20242B",
+  "branches": [
+    {"id": "qi", "title": "气", "type": "气"},
+    {"id": "jian", "title": "剑", "type": "剑"}
+  ],
+  "resources": ["yin", "yang", "frost"]
+}

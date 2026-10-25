@@ -1,0 +1,11 @@
+{
+  "id": "huanshang",
+  "displayName": "寰裳殿",
+  "verse": "雷鸣忽作环佩碎，花语初传惊鸿来",
+  "primaryColor": "#D98AB5",
+  "branches": [
+    {"id": "hua", "title": "华", "type": "花"},
+    {"id": "ting", "title": "霆", "type": "雷"}
+  ],
+  "resources": ["petal"]
+}

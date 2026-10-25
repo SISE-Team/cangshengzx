@@ -1,0 +1,11 @@
+{
+  "id": "chaosong",
+  "displayName": "朝颂山庄",
+  "verse": "弓开满月惊林鹿，笛落长原万兽随",
+  "primaryColor": "#B98C45",
+  "branches": [
+    {"id": "gong", "title": "弓", "type": "弓"},
+    {"id": "shou", "title": "兽", "type": "兽"}
+  ],
+  "resources": ["hunt_seal", "arrow"]
+}

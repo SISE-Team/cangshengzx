@@ -1,0 +1,16 @@
+{
+  "sect": "huanshang",
+  "branch": "ting",
+  "tier": "sect",
+  "realm": "refining_qi",
+  "role": "起手",
+  "name": "惊雷影",
+  "cooldown": 0.0,
+  "cost": {"petal": 1},
+  "cast": {"time": 0.0, "movable": true, "interruptible": false},
+  "require": {"selfResource": {}, "targetStatus": {}, "selfStatus": {}},
+  "targeting": {"shape": "cone"},
+  "movement": {"lock": false, "cancelable": true},
+  "breaker": [],
+  "behavior": ""
+}

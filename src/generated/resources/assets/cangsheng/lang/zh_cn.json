@@ -1,0 +1,19 @@
+{
+  "block.cangsheng.sect_altar": "门派祭坛",
+  "effect.cangsheng.knockdown": "击倒（镜像）",
+  "effect.cangsheng.knockup": "击飞（镜像）",
+  "effect.cangsheng.root": "禁锢（镜像）",
+  "effect.cangsheng.silence": "沉默（镜像）",
+  "effect.cangsheng.slow": "迟缓（镜像）",
+  "effect.cangsheng.snare": "定身（镜像）",
+  "effect.cangsheng.stun": "眩晕（镜像）",
+  "effect.cangsheng.suppress": "压制（镜像）",
+  "item.cangsheng.cangqiong_token": "苍琼堂信物",
+  "item.cangsheng.chaosong_token": "朝颂山庄信物",
+  "item.cangsheng.debug_wand": "调试法杖",
+  "item.cangsheng.fosi_token": "佛寺信物",
+  "item.cangsheng.huanshang_token": "寰裳殿信物",
+  "item.cangsheng.qingluan_token": "青鸾峰信物",
+  "item.cangsheng.qingmo_token": "青墨峰信物",
+  "itemGroup.cangsheng": "苍生之下"
+}

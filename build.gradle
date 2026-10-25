@@ -1,0 +1,48 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+// NeoForge's default CDN is unreachable from some networks; use its official mirror host.
+repositories.clear()
+repositories {
+    maven { url = 'https://libraries.minecraft.net/' }
+    maven { url = 'https://neoforged.forgecdn.net/releases' }
+    maven { url = 'https://neoforged.forgecdn.net/mojang-meta' }
+}
+
+version = mod_version
+group = 'local.cangsheng'
+base { archivesName = 'Cangsheng' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+    exclude '.cache/**'
+}
+
+neoForge {
+    version = neo_version
+    runs {
+        client { client(); gameDirectory = file('../test-cangsheng-client') }
+        server { server(); gameDirectory = file('../test-cangsheng-server'); programArgument '--nogui' }
+        gameTestServer { type = 'gameTestServer'; gameDirectory = file('../test-cangsheng-gametest') }
+        clientData {
+            clientData()
+            gameDirectory = file('../test-cangsheng-data')
+            programArguments.addAll '--mod', 'cangsheng', '--all', '--output', file('src/generated/resources').absolutePath,
+                    '--existing', file('src/main/resources').absolutePath
+        }
+        configureEach { logLevel = org.slf4j.event.Level.INFO }
+    }
+    mods { cangsheng { sourceSet sourceSets.main } }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+def metadata = [version: project.version.toString()]
+processResources {
+    inputs.properties metadata
+    filesMatching('META-INF/neoforge.mods.toml') { expand metadata }
+    from('LICENSE') { into 'META-INF'; rename { 'LICENSE_cangsheng' } }
+    from('NOTICE.md') { into 'META-INF'; rename { 'NOTICE_cangsheng.md' } }
+}

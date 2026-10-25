@@ -1,0 +1,11 @@
+# 统一换行符，避免 Windows/macOS 贡献者互相产生整文件 diff
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 二进制
+*.jar binary
+*.png binary
+*.docx binary
+*.zip binary

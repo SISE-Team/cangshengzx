@@ -1,0 +1,11 @@
+{
+  "id": "qingmo",
+  "displayName": "青墨峰",
+  "verse": "墨泼千峰山欲语，机成一纸甲如林",
+  "primaryColor": "#2E6F67",
+  "branches": [
+    {"id": "mo", "title": "墨", "type": "墨"},
+    {"id": "ji", "title": "机", "type": "机"}
+  ],
+  "resources": ["ink"]
+}

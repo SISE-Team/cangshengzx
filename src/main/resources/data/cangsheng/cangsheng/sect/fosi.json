@@ -1,0 +1,11 @@
+{
+  "id": "fosi",
+  "displayName": "佛寺",
+  "verse": "金顶一钟惊万业，佛前一杖渡千山",
+  "primaryColor": "#9E7D32",
+  "branches": [
+    {"id": "sha", "title": "杀", "type": "杀"},
+    {"id": "du", "title": "渡", "type": "渡"}
+  ],
+  "resources": ["karma", "zen"]
+}

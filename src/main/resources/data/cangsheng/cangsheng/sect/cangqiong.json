@@ -1,0 +1,11 @@
+{
+  "id": "cangqiong",
+  "displayName": "苍琼堂",
+  "verse": "炉火照天枪破夜，铁蹄踏雪马嘶风",
+  "primaryColor": "#8B3F39",
+  "branches": [
+    {"id": "qiang", "title": "枪", "type": "枪"},
+    {"id": "ride", "title": "骑", "type": "骑"}
+  ],
+  "resources": ["battle_intent"]
+}

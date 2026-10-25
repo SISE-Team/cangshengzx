@@ -1,0 +1,8 @@
+{
+  "id": "golden_core",
+  "name": "金丹",
+  "minLevel": 21,
+  "maxLevel": 30,
+  "lifespan": "约 300",
+  "mark": "结丹，可短距飞行"
+}

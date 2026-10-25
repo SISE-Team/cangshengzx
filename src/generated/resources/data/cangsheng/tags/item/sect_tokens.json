@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "cangsheng:huanshang_token",
+    "cangsheng:chaosong_token",
+    "cangsheng:qingmo_token",
+    "cangsheng:cangqiong_token",
+    "cangsheng:qingluan_token",
+    "cangsheng:fosi_token"
+  ]
+}

@@ -1,0 +1,19 @@
+.gradle/
+build/
+run/
+*.log
+*.class
+/.idea/
+/.vscode/
+/.classpath
+/.project
+/.settings/
+/test-cangsheng-client/
+/test-cangsheng-server/
+/test-cangsheng-gametest/
+/src/generated/resources/.cache/
+
+# 本地设计资料，不进版本库
+/任务提示词-M0.md
+/苍生之下_六派设定集_v0.2.2.docx
+

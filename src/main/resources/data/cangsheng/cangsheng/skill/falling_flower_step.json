@@ -1,0 +1,16 @@
+{
+  "sect": "huanshang",
+  "branch": "hua",
+  "tier": "common",
+  "realm": "refining_qi",
+  "role": "dash",
+  "name": "落花步",
+  "cooldown": 0.0,
+  "cost": {"petal": 1},
+  "cast": {"time": 0.0, "movable": true, "interruptible": false},
+  "require": {"selfResource": {}, "targetStatus": {}, "selfStatus": {}},
+  "targeting": {"shape": "self"},
+  "movement": {"lock": false, "cancelable": true},
+  "breaker": [],
+  "behavior": ""
+}
